@@ -1,0 +1,18 @@
+These Instructions will help to install Base Machine with necessary plugins
+
+Pre-Req: Make sure you have a Linux Ubuntu Machine Ready where you will run the .sh script to install plugisn
+
+
+1. Clone the code 
+git clone https://github.com/Akashghosh24/DevOps-Project.git
+
+
+2. Switch to the directory
+cd DevOps-Project
+cd BaseMachineBuild 
+
+3. set the executable mode of the file 
+chmod 755 BaseMachine.sh
+
+4. Run the script
+./BaseMachine.sh
