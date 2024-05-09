@@ -45,7 +45,7 @@ az acr build -t $Repository:$Tag -r $ACR -f ./Dockerfile .
 
 
 
-# Testing the Validity :This is Optional. Pulling the Docker Image and running on any machine tot test if it is working fine
+# Testing the Validity :This is Optional. Pulling the Docker Image and running on any machine to test if it is working fine
 #docker pull dockeragent:agent-v01-ubuntu-20.04 -r containerakash 
 docker pull $ACR.azurecr.io/$Repository:$Tag
 
