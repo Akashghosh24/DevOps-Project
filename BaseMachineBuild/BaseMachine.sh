@@ -1,9 +1,9 @@
 #User_Data
 
 # This will Install Major Utility Plugins to run on Linux Base Machine.
-1. Az CLI 
-2. Docker
-3. Kubectl 
+# 1. Az CLI 
+# 2. Docker
+# 3. Kubectl 
 
 
 
@@ -48,8 +48,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 
 #Install Kubectl
-sudo apt-get update
-sudo apt-get install -y kubectl
+sudo snap install kubectl --classic
 
 
 
