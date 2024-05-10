@@ -50,5 +50,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 #Install Kubectl
 sudo snap install kubectl --classic
 
-
+#Install Helm
+sudo snap install helm --classic
 
