@@ -9,8 +9,8 @@ image="Canonical:0001-com-ubuntu-server-jammy:22_04-lts-gen2:latest"
 adminUsername="adminuser"
 adminPassword="Admin@123456"
 
-ServicePrincipal="1c790438-b163-46ae-ba3c-7a0f3e3d0378"
-Secret="jDf8Q~GyRT7rJq755pO3kfMOT2Uz4K63m4G6Kb5L"
+ServicePrincipal="<Client ID>"
+Secret="<Secret>"
 TenantID="f3eecbb4-2c11-4444-9d12-620a608677ef"
 
 
