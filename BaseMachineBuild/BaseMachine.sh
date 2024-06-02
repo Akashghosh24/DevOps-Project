@@ -4,6 +4,8 @@
 # 1. Az CLI 
 # 2. Docker
 # 3. Kubectl 
+# 4. Helm
+# 5. Node JS for Npm 
 
 
 
@@ -52,4 +54,19 @@ sudo snap install kubectl --classic
 
 #Install Helm
 sudo snap install helm --classic
+
+#Manual Installation of NodeJS and NPM
+#Install NVM to install latest version of NodeJS and NPM both
+# installs nvm (Node Version Manager)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+#Open a new terminal 
+
+# download and install Node.js
+nvm install 22
+
+# verifies the right Node.js version is in the environment
+node -v # should print `v22.2.0`
+
+# verifies the right NPM version is in the environment
+npm -v # should print `10.7.0`
 
