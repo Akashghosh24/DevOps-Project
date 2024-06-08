@@ -1,5 +1,6 @@
 #!/bin/bash
-#We are using Ubuntu 20.04 as its compatible with our task
+#We are using Ubuntu 22.04 as its compatible with our task
+# This can be run at once to deploy the machine and it's related resources.
 # Variables
 resourceGroup="rg-akash"
 location="Central India"
