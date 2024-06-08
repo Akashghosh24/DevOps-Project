@@ -6,6 +6,7 @@
 # 3. Kubectl 
 # 4. Helm
 # 5. Node JS for Npm 
+# 6. Docker Compose is separately needed other than Docker.
 
 
 
@@ -60,13 +61,19 @@ sudo snap install helm --classic
 # installs nvm (Node Version Manager)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 #Open a new terminal 
-
 # download and install Node.js
 nvm install 22
-
 # verifies the right Node.js version is in the environment
 node -v # should print `v22.2.0`
-
 # verifies the right NPM version is in the environment
 npm -v # should print `10.7.0`
+
+
+#Install Docker Compose 2.3.3
+mkdir -p ~/.docker/cli-plugins/
+curl -SL https://github.com/docker/compose/releases/download/v2.3.3/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose
+# Next, set the correct permissions so that the docker compose command is executable
+chmod +x ~/.docker/cli-plugins/docker-compose
+# To verify that the installation was successful, you can run:
+docker compose version
 
